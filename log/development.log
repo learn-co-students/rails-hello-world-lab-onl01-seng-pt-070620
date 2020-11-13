@@ -367,3 +367,10 @@ rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
 /usr/share/rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
   Rendering /home/keesha/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
   Rendered /home/keesha/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+Started GET "/hello_world" for 127.0.0.1 at 2020-11-12 22:07:15 -0500
+Processing by StaticController#hello_world as HTML
+  Rendering static/hello_world.html.erb within layouts/application
+  Rendered static/hello_world.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 553ms (Views: 540.8ms | ActiveRecord: 0.0ms)
+
+
